@@ -1,0 +1,51 @@
+body,
+html {
+    background: url(header.jpg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.buffer {
+    height: 10rem;
+}
+
+hr {
+    margin: 25%;
+}
+
+.btn {
+font-weight: 700;
+border-radius: 300px;
+text-transform: uppercase;
+}
+
+.btn-primary {
+background-color: coral;
+border: coral;
+color: white;
+}
+
+.btn-primary:hover {
+color: white;
+background-color: coral;
+transform: scale(120%);
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
